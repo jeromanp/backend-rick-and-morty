@@ -1,16 +1,16 @@
 {
-  "name": "back_end",
+  "name": "back_end_rym",
   "version": "1.0.0",
-  "description": "Back to Rick and Morty",
+  "description": "BackEnd to proyect Rick and Morty",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "start": "node ./index.js",
+    "start":  "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Jose Eduardo Roman",
   "license": "ISC",
   "dependencies": {
     "axios": "^1.2.2",
@@ -19,6 +19,6 @@
     "nodemon": "^2.0.20"
   },
   "engines": {
-    "node": ">=16 <17"
+    "node": ">=14 <16"
   }
 }
